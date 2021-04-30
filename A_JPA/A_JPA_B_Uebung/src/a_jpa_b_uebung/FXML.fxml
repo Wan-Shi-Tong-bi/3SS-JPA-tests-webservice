@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="a_jpa_b_uebung.FXMLController">
+   <children>
+      <TextField fx:id="tfID" layoutX="39.0" layoutY="34.0" />
+      <TextField fx:id="tfName" layoutX="39.0" layoutY="79.0" />
+      <TextField fx:id="tfWohnort" layoutX="39.0" layoutY="123.0" />
+      <Label layoutX="208.0" layoutY="38.0" text="ID" />
+      <Label layoutX="206.0" layoutY="83.0" text="Name" />
+      <Label layoutX="206.0" layoutY="127.0" text="Wohnort" />
+      <Button fx:id="button" layoutX="39.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#handleButtonClicked" text="Button" />
+   </children>
+</AnchorPane>
